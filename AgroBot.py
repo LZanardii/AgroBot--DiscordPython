@@ -1,5 +1,5 @@
 ### AgroBot - Projeto para o Desenvolve Tech - Sicredi/Puc 
-# Bot para o aplicativo discord que retorna o valor das comodities atualizado  
+# Bot para o aplicativo discord que retorna o valor das comodities   
 
 import discord
 from discord import message #importando a lib discord.py 
