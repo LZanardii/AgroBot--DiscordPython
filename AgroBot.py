@@ -89,7 +89,7 @@ Desculpe \U0001F615''' )
 
 
 #metodo que faz o bot rodar
-client.run('toke do bot encontrado na platadorma do discord')
+client.run('token do bot encontrado na platadorma do discord')
 
 
 
