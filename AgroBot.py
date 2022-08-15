@@ -1,5 +1,5 @@
 ### AgroBot - Projeto para o Desenvolve Tech - Sicredi/Puc 
-# Bot para o aplicativo discord que retorna o valor das comodities atualizado  
+# Bot para o aplicativo discord que retorna o valor das comodities   
 
 import discord
 from discord import message #importando a lib discord.py 
@@ -37,7 +37,7 @@ Verifique seu cadastro com "!meuID" para desbloquear as outras funções.''')
 
 async def meuID(parametro): # "!meuID" é o comando que vai inicializar/liberar as funções do AgroBot
                          
-    if parametro.author.id == 443919424626491402: #if que verifica/autoriza o usuário a interagir com o AgroBot pelo id so usuário
+    if parametro.author.id == 'id do usuario que vai interagir com o bot': #if que verifica/autoriza o usuário a interagir com o AgroBot pelo id so usuário
         print('Usuário autenticado no prompt')
         await parametro.send(f'''Buenas e me espalho  @{parametro.author}. 
 Seu usuário foi autenticado com sucesso.''')
@@ -89,7 +89,7 @@ Desculpe \U0001F615''' )
 
 
 #metodo que faz o bot rodar
-client.run('ODg4NTEzODMxOTk3OTYwMjMy.YUTy_Q.OOuuk2ap6fTgQbEkJU-6g0FUPpc')
+client.run('token do bot encontrado na platadorma do discord')
 
 
 
